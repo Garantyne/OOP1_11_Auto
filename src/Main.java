@@ -5,6 +5,8 @@ public class Main {
         Auto bmw = new Auto("BMW","Z8",3.0,"Черный",2021,"германия");
         Auto kia = new Auto("KIA","Sportage",2.4,"Красный",2018,"Южная Корея");
         Auto hyundai = new Auto("Hyundai","Avante",1.6,"Оранжевый",2016,"Южная Корея");
+        Auto kop = new Auto("","asd",1,"",19,null);
+        Auto kot = new Auto("asd",1,"",19,null);
 
         System.out.println(lada.toString());
         System.out.println();
@@ -15,5 +17,9 @@ public class Main {
         System.out.println(kia.toString());
         System.out.println();
         System.out.println(hyundai.toString());
+        System.out.println();
+        System.out.println(kop.toString());
+        System.out.println();
+        System.out.println(kot.toString());
     }
 }
